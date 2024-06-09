@@ -1,0 +1,558 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="author" content="reidelcode reidel-rojas">
+  <meta name="revisit-after" content="2 days">
+  <meta name="robots" content="index, follow">
+  <meta name="title" content="Proyecto Drobec de Reidelcode">
+  <meta name="description" content="Javascript y css con una app Android para la crear static page con drobec reidelcode">
+  <meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1">
+  <title>Proyecto Drobec de Reidelcode</title>
+  <style>body{overflow:hidden;display:none}</style>
+  <script src="https://cdn.jsdelivr.net/gh/reidelcode/reidelcode.github.io/drobec/v/1.1.min.js">
+ </script>
+</head>
+<body class="">
+<div class="wh-full o-auto ebc51670">
+<template id="app1">
+ <!-- root -->
+ <div class="drobec box sticky w-full top mxw">
+ <nav class="box nav drobec">
+ <div class="drobec tuser">
+ <img src="https://i.ibb.co/0YW5tL2/formy.png" class="drobec lock">
+ <h3 class="drobec lock">ReidelCode</h3>
+ </div>
+ <a href="1" class="drobec bg cl-aliceblue bg-dodgerblue">Drobec</a>
+ <a href="2" class="drobec bg-Deepskyblue cl-Whitesmoke">CSS</a>
+ <a href="3" class="drobec">Install</a>
+ <a href="4" class="drobec">APP</a>
+ </nav>
+ </div>
+ <div class="drobec box">
+ <h1 class="drobec">Drobec.js</h1>
+ <p class="drobec">Drobec.js es un proyecto personal con el que se buscaba ahorrar tiempo teniendo cerca algunas funciones básicas y estilos css repetitivos, que generarían un diseño minimalista para pequeños proyectos de páginas estáticas. Ahora se comparte como librería javascript"usarlo es su responsabilidad no hay seguridad de que funcione sin errores".</p>
+ <div class="drobec box gale">
+ <img loading="lazy" src="https://i.ibb.co/Rczp1NS/formy.png" class="drobec static">
+ <p class="drobec cite">Dispone de una aplicación para Android que le permite crear páginas y micro-apps sin programar ni una línea.</p>
+ </div>
+ </div>
+ <div class="drobec box">
+ <h3 class="drobec">Drobec.js básico</h3>
+ <p class="drobec">Drobec.js provee una apariencia simple y límpia, modo claro/oscuro automático en sus páginas. Usa carga diferida en las imágenes para ganar velocidad a la hora de mostrar la página a sus usuarios en conexiones lentas.</p>
+ <p class="drobec">Al utilizar Drobec.js directamente desde el cdn gana más velocidad con caché permanente de la librería en sus clientes; si sus usuarios han visitado otra página con Drobec.js las próximas cargarán aún más rápido.</p>
+ <div class="drobec box">
+ </div>
+ <p class="drobec cite">Visite la guía de instalación para conectar Drobec.js con cdn a su html.</p>
+ </div>
+ <div class="drobec box">
+ <h3 class="drobec">Funciones básicas</h3>
+ <p class="drobec">Al instalar Drobec.js los mensjes de alert() serán personalizados de forma automática con el estilo CSS-Drobec.<br>
+ </p>
+ <p class="drobec">Se dispondrá de una función única y simple para crear mensajes modales para confirmaciones con el usuario, de forma rápida con un callback a su función para ser ejecutada si el usuario confirma.</p>
+ <p class="drobec">Se podrán ampliar las imágenes como galería, y se autocargarán de forma diferida para ahorrar tráfico en su página. </p>
+ <p class="drobec">Genera una librería css básica con estilos y clases dinámicas y rápidos prediseñados. Cuenta con una paleta de más de 80 colores para utilizar en sus páginas.</p>
+ </div>
+ <footer class="drobec box">
+ <a href="https://reidelcode.github.io" class="drobec bg bg-0auto cl-deepskyblue">reidelcode.github.io</a>
+ <p class="drobec cite">Este sitio es una micro-app creada con Drobec-app</p>
+ </footer>
+ </template>
+ <template id="app2">
+ <div class="drobec box sticky w-full top mxw">
+ <nav class="box nav drobec">
+ <div class="drobec tuser">
+ <img src="https://i.ibb.co/0YW5tL2/formy.png" class="drobec lock">
+ <h3 class="drobec lock">ReidelCode</h3>
+ </div>
+ <a href="1" class="drobec">Drobec</a>
+ <a href="2" class="drobec bg cl-aliceblue bg-dodgerblue">CSS</a>
+ <a href="3" class="drobec">Install</a>
+ <a href="4" class="drobec">APP</a>
+ </nav>
+ </div>
+ <div class="drobec box">
+ <h1 class="drobec">CSS-Drobec</h1>
+ <p class="drobec">Drobec crea una librería css fácil de usar con nombres definifos para las clases y objetos específicos.</p>
+ <p class="drobec">Todos o la gran mayoría de los elementos a modificar con el css deberán contener la clase"drobec"</p>
+ <div class="drobec box card">
+ <pre class="drobec">class="drobec"</pre>
+ </div>
+ </div>
+ <div class="drobec box gale">
+ <p class="drobec">Esta clase garantiza que las imágenes, contenedores y más se ajusten a la pantalla y se apliquen algunos estilos prediseñados.</p>
+ </div>
+ <div class="drobec box">
+ <h2 class="drobec">Clases dinámicas</h2>
+ <p class="drobec">Las clases dinámicas en drobec son para diseñar elementos de forma rápida sin necesidad de crear nuevos css para cada uno.</p>
+ <div class="drobec box card">
+ <pre class="drobec">class="clase clase clase"</pre>
+ </div>
+ <div class="drobec box">
+ <div class="drobec box">
+ </div>
+ <h3 class="drobec">.w-full .h-full .wh-full</h3>
+ <p class="drobec">Ésta es la primera clases dinámica donde w(width) h(height) y full es 100% de la pantalla. Con su uso se pueden crear elementos que ocupen toda la pantalla, vertical u horizontal de forma sencilla.</p>
+ </div>
+ <p class="drobec">max-width relativos para elementos</p>
+ <pre class="drobec"> .w-sm =600px
+ .w-md =780px
+ .w-lg =920px
+ .mxw =100%</pre>
+ <p class="drobec">Position respectiva de los elementos.</p>
+ <pre class="drobec"> .relative
+ .absolute
+ .sticky
+ .fixed</pre>
+ <p class="drobec">Position para usar con sticky absolute o fixed</p>
+ <pre class="drobec"> .right
+ .left
+ .top
+ .bottom</pre>
+ <p class="drobec">Overflow auto o hidden</p>
+ <pre class="drobec"> .o-auto
+ .o-hidden</pre>
+ <p class="drobec">Border solid y border radius de 0.2rem</p>
+ <pre class="drobec"> .bs
+ .br</pre>
+ <p class="drobec">Propiedad display</p>
+ <pre class="drobec"> .hidden
+ .flex
+ .block
+ .inblock</pre>
+ <p class="drobec">Font family:</p>
+ <pre class="drobec"> .monospace
+ .alef
+ .lato
+ .roboto
+ .quicksand</pre>
+ <p class="drobec">Text-align en los contenedores y párrafos</p>
+ <pre class="drobec"> .ta-left
+ .ta-center
+ .ta-right
+</pre>
+ <p class="drobec">Para crear un contenedor con todo centrado use center y las imágenes dentro servirán como avatares para presentar a usuarios.</p>
+ <pre class="drobec"> .center</pre>
+ <p class="drobec">Object-fit para las imágenes.</p>
+ <pre class="drobec"> .fit-contain
+ .fit-cover</pre>
+ <p class="drobec">Otras clases simples a implementar son:</p>
+ <pre class="drobec"> .gradient
+ .shadow
+ .t-shadow
+ .blur
+ .padd5
+ .pd
+ .copy
+ .copy-all</pre>
+ <h3 class="drobec">Colores drobec</h3>
+ <p class="drobec">Drobec genera una paleta de más de 85 colores disponibles para font-color y background-color en los elementos y están accesibles como variables para css</p>
+ <p class="drobec">Añada la clase"bg" y el estilo deseado</p>
+ <pre class="drobec">bg bg-[color]
+bg cl-[color]
+.css{color:var(--cl-[color])}
+</pre>
+ <p class="drobec">Ejemplo de uso creando un elemento de background-color azul y lentras blancas font-color:</p>
+ <div class="drobec box card">
+ <pre class="drobec">class="bg bg-blue cl-white"</pre>
+ </div>
+ </div>
+ <div class="drobec box">
+ </div>
+ <div class="drobec box">
+ <h2 class="drobec">Clases prediseñadas</h2>
+ <div class="drobec box">
+ <p class="drobec">Las clases prediseñadas son combinaciones de clases para generar diseños rápidos</p>
+ </div>
+ <div class="drobec box">
+ <p class="drobec">Los link son una parte fundamental en la web, los enlaces que no tengan la clase"drobec" serán eliminados para garantizar que sólo estén accesibles los links creados por el programador de la página. ¡Esto es modificable!</p>
+ <details class="drobec box">
+ <summary class="">Ver más.</summary>
+ <p class="drobec">Los links tienen algunos diseños predeterminados dependiendo del contenedor donde se encuentren ya sean"card","nav" o"gale"</p>
+ <div class="drobec box card">
+ <pre class="drobec">&lt;a href="url" class="drobec"&gt;name link&lt;/a&gt;</pre>
+ </div>
+ </details>
+ </div>
+ <div class="drobec box">
+ </div>
+ <div class="drobec box">
+ <p class="drobec">Optimizar details. Los details son aplicados por defecto como parte de Drobec</p>
+ <details class="drobec box">
+ <summary class="">Código</summary>
+ <div class="drobec box card">
+ <pre class="drobec">&lt;details class="drobec"&gt;
+ &lt;summary&gt;tema&lt;/summary&gt;
+ ...contenido deseado...
+&lt;/details&gt;</pre>
+ </div>
+ </details>
+ </div>
+ <div class="drobec box">
+ </div>
+ <div class="drobec box">
+ <p class="drobec">Drobec aplica a las imágenes por defecto la propiedad"fit-cover" y"display block", y presenta dos clases importantes para éstas:</p>
+ <details class="drobec box">
+ <summary class="">open </summary>
+ <p class="drobec">Añadir la clase open a sus imágenes hace que drobec le añada la función de galería y se pueden ampliar en pantalla completa si el usuario hace click sobre ellas.</p>
+ <div class="drobec box card">
+ <pre class="drobec">class="drobec open"</pre>
+ </div>
+ </details>
+ <details class="drobec box">
+ <summary class="">static</summary>
+ <p class="drobec">Genera imágenes estáticas para artículos o muestras.</p>
+ <div class="drobec box card">
+ <pre class="drobec">class="drobec static"</pre>
+ </div>
+ </details>
+ </div>
+ <div class="drobec box">
+ </div>
+ <div class="drobec box">
+ <p class="drobec">Cuatro contenedores en drobec con"div" para diferentes propósitos.</p>
+ <details class="drobec box">
+ <summary class="">Block</summary>
+ <p class="drobec">Crear un div contenedor simple con estilo inline-block</p>
+ <div class="drobec box card">
+ <pre class="drobec">&lt;div class="drobec"&gt;
+...
+&lt;/div&gt;</pre>
+ </div>
+ </details>
+ <details class="drobec box">
+ <summary class="">Card</summary>
+ <p class="drobec">El contenedor"card" permite crear tarjetas para representar secciones destacadas, código, productos o servicios todo está en su diseño.</p>
+ <p class="drobec cite cl-Orangered bg">El código está en una tarjeta card</p>
+ <div class="drobec box card">
+ <pre class="drobec">&lt;div class="drobec card"&gt;
+...
+&lt;/div&gt;</pre>
+ </div>
+ <p class="drobec">En este contenedor los link tendrán el aspecto de un botón más pronunciado. Puede incluir el objeto &lt;pre&gt; para mostrar código y las imágenes tendrán los bordes redondeados.</p>
+ </details>
+ <details class="drobec box">
+ <summary class="">Flex</summary>
+ <p class="drobec">Una propiedad muy perseguida en el diseño es flex-box, para la creación de galería y organizar elementos de forma dinámica. Un contenedor flex en drobec permite crear:</p>
+ <p class="drobec">Un carrusel de imágenes simple diseñado para imágenes verticales como muestra o galería dinámica. De igual forma se puede sustituir las fotos por un contenedor"card" con la misma finalidad.</p>
+ <div class="drobec box card">
+ <pre class="drobec">&lt;div class="drobec flex"&gt;
+ &lt;img src="" class="drobec"&gt;
+ &lt;img src="" class="drobec open"&gt;
+&lt;/div&gt;</pre>
+ </div>
+ <h3 class="drobec">Ejemplo</h3>
+ <div class="drobec box flex">
+ <img loading="lazy" src="https://i.ibb.co/Gv2mBCJ/formy.png" class="drobec static">
+ <img loading="lazy" src="https://i.ibb.co/Gv2mBCJ/formy.png" class="drobec open">
+ </div>
+ <div class="drobec box card">
+ <pre class="drobec">&lt;div class="drobec flex"&gt;
+ &lt;div class="drobec card"&gt;card1&lt;/div&gt;
+ &lt;div class="drobec card"&gt;card2&lt;/div&gt;
+&lt;/div&gt;</pre>
+ </div>
+ <h3 class="drobec">Ejemplo</h3>
+ <div class="drobec box flex">
+ <div class="drobec box card">
+ <h1 class="drobec">Card1</h1>
+ </div>
+ <div class="drobec box card">
+ <h1 class="drobec">Card2</h1>
+ </div>
+ </div>
+ </details>
+ <details class="drobec box">
+ <summary class="">Sticky</summary>
+ <p class="drobec">Un contenedor sticky se implementa para crear barra que se fijarán a la parte superior o inferior de la pantalla como barras de navegación o detalles del diseño</p>
+ <div class="drobec box card">
+ <pre class="drobec">&lt;div class="drobec sticky top"&gt;
+...
+&lt;/div&gt;</pre>
+ </div>
+ <p class="drobec">Puede usar TOP o BOTTOM respectivamente donde desee fijarla</p>
+ </details>
+ </div>
+ <div class="drobec box">
+ </div>
+ <div class="drobec box">
+ <p class="drobec">Drobec tiene prediseñados dos tipos de párrafos:</p>
+ <details class="drobec box">
+ <summary class="">Párrafo normal</summary>
+ <p class="drobec">Un simple párrafo con algunos márgenes y padding definidos en la librería.</p>
+ <div class="drobec box card">
+ <pre class="drobec">&lt;p class="drobec"&gt;
+ Todo el texto del párrafo
+&lt;/p&gt;</pre>
+ </div>
+ </details>
+ <details class="drobec box">
+ <summary class="">Cita o blockquote</summary>
+ <p class="drobec">Contiene sus propios diseños de bloque de texto incluyendo un resaltado del borde izquierdo.</p>
+ <div class="drobec box card">
+ <pre class="drobec">&lt;p class="drobec cite"&gt;
+ Todo el texto del párrafo
+&lt;/p&gt;</pre>
+ </div>
+ <h3 class="drobec">Ejemplo </h3>
+ <p class="drobec cite">Ejemplo de cite creada con drobec</p>
+ </details>
+ </div>
+ <div class="drobec box">
+ </div>
+ <div class="drobec box">
+ <p class="drobec">Crear un div contenedor y añadir la clase"gale" permite crear:</p>
+ <details class="drobec box">
+ <summary class="">Galería de fotos</summary>
+ <p class="drobec">implementar una mini galería responsive de 3 bloques de ancho.</p>
+ <div class="drobec box card">
+ <pre class="drobec">&lt;div class="drobec gale"&gt;
+ &lt;img 1...&gt;
+ &lt;img 2...&gt;
+ &lt;img 3...&gt;
+&lt;/div&gt;</pre>
+ </div>
+ <h3 class="drobec">Ejemplo</h3>
+ <div class="drobec box gale">
+ <img loading="lazy" src="https://i.ibb.co/Gv2mBCJ/formy.png" class="drobec open">
+ <img loading="lazy" src="https://i.ibb.co/Gv2mBCJ/formy.png" class="drobec open">
+ <img loading="lazy" src="https://i.ibb.co/Gv2mBCJ/formy.png" class="drobec open">
+ </div>
+ </details>
+ <details class="drobec box">
+ <summary class="">Lista</summary>
+ <p class="drobec">Relativamente no sólo se puede usar para galería de fotos. Si incluye párrafos estos tomarán el aspecto de una lista identificada con viñetas.</p>
+ <div class="drobec box card">
+ <pre class="drobec">&lt;div class="drobec gale"&gt;
+ &lt;p class="drobec"&gt;uno&lt;/p&gt;
+ &lt;p class="drobec"&gt;dos&lt;/p&gt;
+ &lt;p class="drobec"&gt;tres&lt;/p&gt;
+&lt;/div&gt;</pre>
+ </div>
+ <h3 class="drobec">Ejemplo</h3>
+ <div class="drobec box gale">
+ <p class="drobec">Uno</p>
+ <p class="drobec">Dos</p>
+ <p class="drobec">Tres</p>
+ </div>
+ </details>
+ <details class="drobec box">
+ <summary class="">Tarjeta de muestra</summary>
+ <p class="drobec">Si se combina una imagen con un párrafo con la clase"cite" el resultado será una tarjeta de diseño muestra con detalles donde el párrafo ocupará el espacio de 2 fotos.</p>
+ <div class="drobec box card">
+ <pre class="drobec">&lt;div class="drobec gale"&gt;
+ &lt;img&gt;
+ &lt;p class="drobec cite"&gt;texto de muestra&lt;/p&gt;
+&lt;/div&gt;</pre>
+ </div>
+ <h3 class="drobec">Ejemplo</h3>
+ <div class="drobec box gale">
+ <img loading="lazy" src="https://i.ibb.co/Gv2mBCJ/formy.png" class="drobec static">
+ <p class="drobec cite">texto de muestra</p>
+ </div>
+ </details>
+ <details class="drobec box">
+ <summary class="">Botón de descarga/compra/ect.</summary>
+ <p class="drobec">Incluir un link en un contenedor"gale" genera un botón w-full con un estilo amplio para generar descargas o compras.</p>
+ <div class="drobec box card">
+ <pre class="drobec">&lt;div class="drobec gale"&gt;
+ &lt;a href="" class="drobec"&gt; link &lt;/a&gt;
+&lt;/div&gt;</pre>
+ </div>
+ <h3 class="drobec">Ejemplo</h3>
+ <div class="drobec box gale">
+ <a href="" class="drobec bg-green bg cl-aliceblue">Link descarga </a>
+ </div>
+ </details>
+ </div>
+ <div class="drobec box">
+ </div>
+ <div class="drobec box">
+ <p class="drobec">Otro de los elementos creados para drobec son los switch para on/off</p>
+ <div class="drobec box card">
+ <pre class="drobec">&lt;label class="switch"&gt;
+ &lt;input type="checkbox"&gt;
+ &lt;div&gt;&lt;/div&gt;
+&lt;/label&gt;</pre>
+ </div>
+ </div>
+ <p class="drobec cite bg-yellow bg cl-red">Drobec es un proyecto personal de tiempo libre usarlo es su responsabilidad. ¡No hay seguridad de que funcione sin errores!</p>
+ </div>
+ </template>
+ <template id="app3">
+ <div class="drobec box sticky w-full top mxw">
+ <nav class="box nav drobec">
+ <div class="drobec tuser">
+ <img src="https://i.ibb.co/0YW5tL2/formy.png" class="drobec lock">
+ <h3 class="drobec lock">ReidelCode</h3>
+ </div>
+ <a href="1" class="drobec">Drobec</a>
+ <a href="2" class="drobec">CSS</a>
+ <a href="3" class="drobec bg bg-dodgerblue cl-aliceblue">Install</a>
+ <a href="4" class="drobec">APP</a>
+ </nav>
+ </div>
+ <div class="drobec box">
+ <h1 class="drobec">Instalar Drobec.v.js </h1>
+ <p class="drobec">Para instalar una versión Drobec en su html sólo haga referencia en el head de su página a la versión que desea utilizar de la siguiente manera:</p>
+ <p class="drobec cite bg-yellow bg cl-red">Drobec es un proyecto personal de tiempo libre usarlo es su responsabilidad. ¡No hay seguridad de que funcione sin errores!</p>
+ </div>
+ <div class="drobec box">
+ <p class="drobec">La URL base de las versiones de Drobec con el cdn es:</p>
+ <div class="drobec box card">
+ <pre class="drobec cl-Deepskyblue bg cl-orangered">https://cdn.jsdelivr.net/gh/reidelcode/reidelcode.github.io/drobec/v/{versión}.min.js</pre>
+ </div>
+ </div>
+ <div class="drobec box">
+ <div class="drobec box card">
+ <pre class="drobec bg cl-Orangered cl-drobec bg-drobec">&lt;script src="https://cdn.jsdelivr.net/gh/reidelcode/reidelcode.github.io/drobec/v/1.1.min.js"&gt;&lt;/script&gt;</pre>
+ </div>
+ </div>
+ <div class="drobec box">
+ <div class="drobec box">
+ <h3 class="drobec">Versiones disponibles</h3>
+ <p class="drobec cite">La última versión estable es la 1.1</p>
+ <div class="drobec box gale">
+ <p class="drobec">1.1 9/6/2024</p>
+ <p class="drobec">1.0 6/6/2024</p>
+ </div>
+ </div>
+ </div>
+ <div class="drobec box">
+ <p class="drobec cite">El siguiente código es un ejemplo sencillo de cómo usar Drobec.js. Copie y ejecute en un navegador web.</p>
+ <div class="drobec box card">
+ <pre class="drobec bg cl-drobec">&lt;!DOCTYPE html&gt;
+&lt;html lang="es"&gt;
+&lt;head&gt;
+ &lt;meta charset="UTF-8"&gt;
+ &lt;meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1"&gt;
+ &lt;title&gt;title&lt;/title&gt;
+ &lt;script src="https://cdn.jsdelivr.net/gh/reidelcode/reidelcode.github.io/drobec/v/1.1.min.js"&gt;&lt;/script&gt;
+&lt;/head&gt;
+&lt;body&gt;
+ &lt;div class="root wh-full"&gt;
+ &lt;img src="https://i.ibb.co/Gv2mBCJ/drobec.png" alt="" class="drobec open"&gt;
+ &lt;h1 class="drobec"&gt;Hola Mundo&lt;/h1&gt;
+ &lt;p class="drobec"&gt;
+ Esta es mi primera página con drobec-js
+ &lt;/p&gt;
+ &lt;a href="" class="drobec"&gt;Contacto&lt;/a&gt;
+ &lt;/div&gt;
+&lt;/body&gt;
+&lt;/html&gt;</pre>
+ </div>
+ </div>
+ <footer class="drobec box">
+ <a href="https://reidelcode.github.io" class="drobec bg cl-deepskyblue">reidelcode.github.io</a>
+ <p class="drobec cite">Este sitio es una micro-app creada con Drobec-app</p>
+ </footer>
+ </template>
+ <template id="app4">
+ <div class="drobec box sticky w-full top mxw">
+ <nav class="box nav drobec">
+ <div class="drobec tuser">
+ <img src="https://i.ibb.co/0YW5tL2/formy.png" class="drobec lock">
+ <h3 class="drobec lock">ReidelCode</h3>
+ </div>
+ <a href="1" class="drobec">Drobec</a>
+ <a href="2" class="drobec">CSS</a>
+ <a href="3" class="drobec">Install </a>
+ <a href="4" class="drobec bg-dodgerblue bg cl-aliceblue">APP</a>
+ </nav>
+ </div>
+ <div class="drobec box">
+ <div class="drobec box">
+ </div>
+ <h1 class="drobec">Drobec-App</h1>
+ <div class="drobec box gale">
+ <p class="drobec cite">Dispone de una aplicación para Android que le permite crear páginas y micro-apps sin programar ni una línea.</p>
+ <img loading="lazy" src="https://i.ibb.co/Rczp1NS/formy.png" class="drobec static">
+ <a href="drobec_16_9.6.apk" class="drobec bg bg-green cl-aliceblue">Descargar 1.2Mb</a>
+ </div>
+ <p class="drobec">Drobec ahora pone a su disposición una aplicación móvil para Android que le permite crear una página web estática sin programar ni una sola línea de código HTML, CSS o JS.</p>
+ </div>
+ <div class="drobec box">
+ <h3 class="drobec">¿Qué puede hacer la app?</h3>
+ <p class="drobec">La app es extremadamente sencilla, está pensada para los usuarios que no saben de programación web ni HTML.</p>
+ <p class="drobec">Desde la app puede editar de forma gráfica los elementos del HTML como textos, imágenes, links, títulos y más. De esta forma el usuario sólo selecciona dónde colocar el texto e imágenes y con un click modificar los mismos.</p>
+ </div>
+ <div class="drobec box card">
+ <details class="drobec box">
+ <summary class="">Estructura de la app</summary>
+ <p class="drobec">La app cuenta con dos barras de accesos, la superior tiene los botones de ajustes, multimedia, selector de páginas, crear micro-app y crear páginas </p>
+ <p class="drobec">La barra inferior cuenta con el acceso PRO, selector de colores, editar, mover, eliminar, añadir elementos y vista ampliada</p>
+ </details>
+ <details class="drobec box">
+ <summary class="">¿Qué es una página HTML?</summary>
+ <p class="drobec">Una página HTML es un documento de texto que contiene código para crear y diseñar una página web. Utiliza etiquetas para estructurar el contenido y definir elementos como textos, imágenes y enlaces. Se visualiza en un navegador web.</p>
+ </details>
+ <details class="drobec box">
+ <summary class="">¿Qué es una micro-app?</summary>
+ <p class="drobec">Drobec-app brinda la posibilidad de crear 6 páginas HTML y su descarga independiente.</p>
+ <p class="drobec">La micro-app de Drobec es la combinación de varias de éstas páginas en un sólo archivo HTML que da como resultado la simulación de un sitio web completo con varias páginas conectadas por enlaces como un sitio normal.</p>
+ <p class="drobec cite">¡Este sitio es una micro-app de Drobec!</p>
+ </details>
+ </div>
+ <div class="drobec box">
+ </div>
+ <div class="drobec box">
+ <h3 class="drobec">Desventajas de la app</h3>
+ <div class="drobec box gale">
+ <p class="drobec">No puede incluir su propio código HTML. Sólo puede usar los elementos proporcionados.</p>
+ <p class="drobec">Los diseños creados con la app serán simples, con mejor experiencia para sitios informativos o descripción de servicios o productos ¡Nada complejo!</p>
+ <p class="drobec">Sólo podrá usar las imágenes cargadas a su cuenta personal de https://imgbb.com</p>
+ </div>
+ </div>
+ <div class="drobec box">
+ <h3 class="drobec">Ventajas de la app</h3>
+ <div class="drobec box">
+ <div class="drobec box gale">
+ <p class="drobec">No necesita programar ni una sola línea de código HTML ni css ni javascript.</p>
+ <p class="drobec">Contiene los elementos básicos necesarios para páginas estáticas, sólo seleccione dónde usarlos y listo.</p>
+ <p class="drobec">Puede seleccionar el color de los elementos como background y font-color.</p>
+ <p class="drobec">Se conecta a https://imgbb.com con su api personal para crear hosting gratuito para sus imágenes.</p>
+ </div>
+ </div>
+ <div class="drobec box card bg bg-0auto cl-0auto">
+ <div class="drobec box">
+ <h3 class="drobec bg cl-orangered">Atención </h3>
+ <p class="drobec cite bg cl-orangered">Las páginas creadas en la app sólo están en su dispositivo, no son almacenadas en ninguna cuenta, la app no usa registro de usuarios, si la app o su caché se borran perderá su trabajo; por esta razón está disponible el respaldo de datos local!</p>
+ </div>
+ <details class="drobec box">
+ <summary class="">¡Guía rápida insertar o mover!</summary>
+ <div class="drobec box gale">
+ <p class="drobec">A continuación de otro: haga click corto sobre el elemento que estará antes de él !</p>
+ <p class="drobec">Antes de otro: haga click por medio segundo sobre el elemento que estará a continuación de él !</p>
+ <p class="drobec">Dentro de otro: haga click largo 2 segundos sobre el elemento que usará de contenedor!</p>
+ </div>
+ </details>
+ <details class="drobec box">
+ <summary class="">¡Hosting para imágenes!</summary>
+ <p class="drobec">Drobec-app ha sido creado para trabajar con imágenes desde https://api.imgbb.com, cree una Apikey en el sitio para usar la api y guardar las imágenes de forma gratuita en su cuenta. De esta forma tendrá un hosting gratuito. </p>
+ <a href="https://api.imgbb.com" class="drobec">Crear Apikey</a>
+ </details>
+ <details class="drobec box">
+ <summary class="">¿Dónde publicar mis proyectos?</summary>
+ <p class="drobec">Drobec no posee hosting para sus proyectos! Puede usar cualquier servicio web que le permita subir sus HTML al servidor.</p>
+ <h4 class="drobec">Algunos servicios gratuitos:</h4>
+ <div class="drobec box gale">
+ <p class="drobec">https://github.com</p>
+ <p class="drobec">https://tiiny.host</p>
+ <p class="drobec">https://static.app</p>
+ <p class="drobec">https://htmlsave.com</p>
+ </div>
+ <p class="drobec cite">Si no tiene muchos conocimientos del tema use https://tiiny.host es fácil y gratuito.</p>
+ </details>
+ </div>
+ </div>
+ <footer class="drobec box">
+ <a href="https://reidelcode.github.io" class="drobec cl-deepskyblue bg">reidelcode.github.io</a>
+ <p class="drobec">Drobec es un proyecto personal de tiempo libre usarlo es su responsabilidad. ¡No hay seguridad de que funcione sin errores!</p>
+ </footer>
+ </template>
+ <div class="wh-full o-auto" id="rootapp">
+ </div>
+ <script>forrender=[1,rootapp]</script>
+</div>
+</body>
+</html>
