@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+  <html lang="es">
+    <head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Reidelcode">
+    <meta name="revisit-after" content="2 days">
+    <meta name="robots" content="index, follow">
+    <meta name="title" content="getapp reidelcode">
+    <meta name="description" content="Crea tu página html estáticas con drobec-app sin programar ni una línea">
+    <meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1">
+    <style>
+      body{display:none}
+      .xwait{padding:10rem 1rem !important}
+      :root{
+        --load-bg:dodgerblue
+      }
+      .load1,.load2{position:relative;margin-bottom:2rem !important}.load1{width:48px;margin:auto;height:48px}.load1:before{content:'';width:48px;height:5px;background:#333;position:absolute;top:58px;left:0;border-radius:50%;animation:.5s linear infinite sh36}.load1:after,.load2::before{position:absolute;background:var(--load-bg);top:0;left:0;height:100%}.load1:after{content:'';width:100%;border-radius:14px;animation:.5s linear infinite boxc;border:solid 1px #000}@keyframes boxc{15%{border-bottom-right-radius:3px}25%{transform:translateY(9px) rotate(22.5deg)}50%{transform:translateY(18px) scale(1,.9) rotate(45deg);border-bottom-right-radius:40px}75%{transform:translateY(9px) rotate(67.5deg)}100%{transform:translateY(0) rotate(90deg)}}@keyframes sh36{0%,100%{transform:scale(1,1)}50%{transform:scale(1.2,1)}}.load2{display:block;overflow:hidden;width:180px;height:10px;border-radius:30px;background-color:rgba(0,0,0,.2)}.load2::before{content:"";width:0%;border-radius:30px;animation:1s ease-in-out infinite mv0v}@keyframes mv0v{50%{width:100%}100%{width:0;right:0;left:unset}}
+    </style>
+  </head>
+  <body>
+  <div align="center" class="xwait">
+    <div class="load1"></div>
+    <h1>Drobec-App</h1>
+    <p>cargando..</p>
+  </div>
+  </body>
+  <script>
+    errorScript=()=>{
+      document.body.innerHTML=`
+  <div align="center">
+    <img src="data:image/png;base64,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" style="padding-top:60px; max-width:90%;"/>
+    <b>
+      <p style="color:#fff;font-family:roboto;padding:20px;font-size:30px;">
+        ¡Drobec necesita Internet!
+      </p>
+	   </b>
+	   	<button onclick="window.location.reload()" style="
+        font-size: 35px;
+        font-family:roboto;
+        border: 4px solid #FFF;
+        box-shadow:0 0 14px #000;
+        background: rgba(0, 0, 0, .3);
+        color: #fff">
+          <b>Conectar</b>
+    </button>
+  </div>
+      `
+      document.body.style.background ="#29434e"
+      document.body.style.display ="inline-block"
+    }
+
+    d = new Date()
+    const cache = d.getFullYear()+''+d.getMonth()+''+d.getDate()
+    script = document.createElement('script')
+    script.src = 'assets/loader.js?cache='+cache
+    script.defer = true
+    script.onerror = errorScript
+    document.head.append(script)
+  </script>
+</html>
