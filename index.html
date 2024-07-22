@@ -21,28 +21,14 @@
 <a href="/drobec" class="drobec">Visitar Drobec 3</a>
 </div>
 <script>
-const registerServiceWorker = async () => {
-  if ("serviceWorker" in navigator) {
-    try {
-      const registration = await navigator.serviceWorker.register("/service-worker.js", {
-        scope: "/",
-      });
-      if (registration.installing) {
-        alert("Service worker installing");
-      } else if (registration.waiting) {
-        alert("Service worker installed");
-      } else if (registration.active) {
-        alert("Service worker active");
-      }
-    } catch (error) {
-      alert(`Registration failed with ${error}`);
-    }
-  }
-};
+if ("serviceWorker" in navigator) {
+    navigator.serviceWorker
+      .register("/service-worker.js")
+      .then(res => console.log("Listo para uso sin conexión"))
+      .catch(err => console.log("No funciona offline: "+err))
+}
 
-// …
 
-registerServiceWorker();
 </script>
 </body>
 </html>
