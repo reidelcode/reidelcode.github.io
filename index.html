@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <link rel='manifest' href='/manifest.json'>
+    <link rel='manifest' href='/manifest.webmanifest'>
   <meta charset="UTF-8">
   <link rel="canonical" href="https://reidelcode.github.io"/>
   <meta name="author" content="reidelcode reidel-rojas">
@@ -18,7 +18,7 @@
 <body class="">
 
 <div class="wh-full o-auto">
-<a href="/drobec" class="drobec">Visitar Drobec2</a>
+<a href="/drobec" class="drobec">Visitar Drobec 3</a>
 </div>
 <script>
 const registerServiceWorker = async () => {
@@ -28,14 +28,14 @@ const registerServiceWorker = async () => {
         scope: "/",
       });
       if (registration.installing) {
-        console.log("Service worker installing");
+        alert("Service worker installing");
       } else if (registration.waiting) {
-        console.log("Service worker installed");
+        alert("Service worker installed");
       } else if (registration.active) {
-        console.log("Service worker active");
+        alert("Service worker active");
       }
     } catch (error) {
-      console.error(`Registration failed with ${error}`);
+      alert(`Registration failed with ${error}`);
     }
   }
 };
