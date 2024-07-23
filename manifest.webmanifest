@@ -1,19 +1,26 @@
 {
-  "description":"Description para edirar",
-  "theme_color":"#ff00ff",
-  "background_color":"#00ff00",
-  "display":"Standalone",
-  "orientation":"portrait",
-  "scope":"/",
-  "start_url":"http://reidelcode.github.io",
-  "icons":[
+  "description": "Description para edirar",
+  "theme_color": "#ff00ff",
+  "background_color": "#00ff00",
+  "display": "standalone",
+  "orientation": "portrait",
+  "scope": "/",
+  "start_url": "http://reidelcode.github.io",
+  "icons": [
     {
-      "src":"icons/512x512.png",
-      "sizes":"512x512",
-      "type":"image/png",
-      "purpose":"maskable"
+      "src": "icons/512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
     }
   ],
-  "name":"reidelcode",
-  "short_name":"reidelcode2"
+  "name": "reidelcode",
+  "short_name": "reidelcode2",
+  "prefer_related_applications": true,
+  "lang": "es",
+  "categories": [
+    "personalization",
+    "productivity",
+    "utilities"
+  ]
 }
